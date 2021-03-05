@@ -30,7 +30,9 @@ const App = () => {
         >
           ДЕКРЕМЕНТ--
         </button>
-        <button className="btn">ПОЛУЧИТЬ ЮЗЕРОВ</button>
+        <button className="btn" onClick={() => dispatch(fetchUsers())}>
+          ПОЛУЧИТЬ ЮЗЕРОВ
+        </button>
       </div>
       <div className="users">
         {users.map((user) => (
