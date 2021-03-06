@@ -2,8 +2,6 @@ import React from "react";
 import "./style.css";
 import { useDispatch, useSelector } from "react-redux";
 import {
-  decrementCreator,
-  incrementCreator,
   asyncIncrementCreator,
   asyncDecrementCreator,
 } from "./store/countReducer";
